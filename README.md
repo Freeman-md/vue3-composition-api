@@ -22,3 +22,10 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+## Notes
+# Why Vue3 Composition API
+1. Separation of Concerns
+2. TypeScript Support
+3. Reusability
