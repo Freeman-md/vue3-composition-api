@@ -1,13 +1,12 @@
 <template>
-  <div>
-    <Counter />
+  <div id="app"> 
+    <ComponentA />   
   </div>
 </template>
 
 <script>
-import Counter from './components/Counter.vue'
-
+import ComponentA from './components/ComponentA.vue'
 export default {
-  components: {Counter}
+  components: {ComponentA}
 }
 </script>
