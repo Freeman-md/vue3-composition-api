@@ -1,12 +1,15 @@
 <template>
-  <div id="app"> 
-    <ComponentA />   
-  </div>
+  <SettingsProvider>
+    <ThemeButton />
+  </SettingsProvider>
 </template>
 
 <script>
-import ComponentA from './components/ComponentA.vue'
+import SettingsProvider from './components/SettingsProvider.vue'
+import ThemeButton from './components/ThemeButton.vue'
+
 export default {
-  components: {ComponentA}
+  components: {SettingsProvider, ThemeButton}
 }
 </script>
+    ThemeButton
